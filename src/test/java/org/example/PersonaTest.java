@@ -15,12 +15,14 @@ Probamos que la edad sea correcta
         assertEquals(34, p.getEdad());
     }
 
-
+/*
+REVISAMOS QUE LAS 2 PERSONAS SON IGUALES
+ */
     @Test
     public void sonIguales() {
       Persona p1 = p;
         boolean resultado = false;
-      if (p==p1){
+      if (p1.equals(p)){
            resultado = true;
       }
         assertEquals(true, resultado);
