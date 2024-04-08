@@ -14,4 +14,16 @@ Probamos que la edad sea correcta
     public void calcularEdad() {
         assertEquals(34, p.getEdad());
     }
+
+
+    @Test
+    public void sonIguales() {
+      Persona p1 = p;
+        boolean resultado = false;
+      if (p==p1){
+           resultado = true;
+      }
+        assertEquals(true, resultado);
+    }
+
 }
