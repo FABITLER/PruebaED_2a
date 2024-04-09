@@ -90,6 +90,10 @@ public class Persona implements Comparable<Persona> {
         return Period.between(nacimiento, LocalDate.now()).getYears();
     }
 
+    /**
+     * DEVUELVE EN STRING LOS DATOS DE LA PERSONA
+     * @return
+     */
     @Override
     public String toString() {
         if (nombre.split(" ").length > 1) {
