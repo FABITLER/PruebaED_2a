@@ -40,6 +40,10 @@ public class Nif {
         this.letra = calcularLetra(numero);
     }
 
+    /**
+     * DEVUELVE EL NIF
+     * @return EN STRING
+     */
     @Override
     public String toString() {
         return numero + "-" + letra;
