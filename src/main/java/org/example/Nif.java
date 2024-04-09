@@ -23,6 +23,9 @@ public class Nif {
         return LETRAS[numero % 23];
     }
 
+    /**
+     * crea un nif por defecto t odo vacio
+     */
     protected Nif() {
         this.numero = 0;
         this.letra = ' ';
