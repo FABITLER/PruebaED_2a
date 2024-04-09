@@ -17,7 +17,7 @@ public class Persona implements Comparable<Persona> {
 
     /**
      * CREA UNA OBJETO PERSONA CON DATOS POR DEFECTO QUE ES
-     * TODO VACIO Y  LA FECHA 1990/1/1
+     *  VACIO Y  LA FECHA 1990/1/1
      */
 
     public Persona() {
@@ -100,6 +100,11 @@ public class Persona implements Comparable<Persona> {
         }
     }
 
+    /**
+     * COMPRUEBA SI UNA PERSONA TIENE EL MISMO DNI Y ASI SABER SI ES LA MISMA PERSONA
+     * @param a
+     * @return TRUE SI SI ES, FALSE SI NO
+     */
     public boolean equals(Persona a) {
         if (a == null) {
             return false;
