@@ -11,7 +11,9 @@ Curso  c = new Curso("D1");
     */
  @Test
 public void anadirAlumno() {
-  pepe = new Persona();
+pepe = new Persona();
    c.aniadirAlumno(pepe);
+     String resultado = c.toString();
+     Assert.assertTrue(resultado.contains(pepe.getNombre()));
 }
 }
