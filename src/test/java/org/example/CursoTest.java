@@ -7,9 +7,10 @@ class CursoTest {
 Curso  c = new Curso("D1");
  Persona pepe;
 
-/*
-  AQUI PROBAMOS QUE SE AÑADE CORRECTAMENTE LA PERSONA
-    */
+    /**
+     * REVISAMOS QUE EL AÑADIR FUNCIONA CORRECTAMENTE REVISANOD QUE AL AÑADIR
+     * SI SE ENCUNTRA EN LA LISTA ED SU CURSO
+     */
  @Test
 public void anadirAlumno() {
 pepe = new Persona();
