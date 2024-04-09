@@ -15,6 +15,11 @@ public class Persona implements Comparable<Persona> {
     private char genero;
     private LocalDate nacimiento;
 
+    /**
+     * CREA UNA OBJETO PERSONA CON DATOS POR DEFECTO QUE ES
+     * TODO VACIO Y  LA FECHA 1990/1/1
+     */
+
     public Persona() {
         nif = new Nif();
         nombre = "";
