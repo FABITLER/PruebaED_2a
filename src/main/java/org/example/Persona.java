@@ -112,6 +112,11 @@ public class Persona implements Comparable<Persona> {
         return a.nif.toString().equals(this.nif.toString());
     }
 
+    /**
+     * DEVUELVE TRUE SI ES EL MISMO OBJECTO CON EL MISMO ID Y FALSE SI NO LO ES
+     * @param obj
+     * @return
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -127,6 +132,7 @@ public class Persona implements Comparable<Persona> {
 
         return Objects.equals(this.nif, other.nif);
     }
+
 
     @Override
     public int compareTo(Persona o) {
