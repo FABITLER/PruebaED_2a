@@ -28,6 +28,10 @@ public class Curso {
         listaAlumnos = new TreeSet<>();
     }
 
+    /**
+     * DEVUELVE DE MANERA ORDENADA EL NOMBRE DEL CURSO CON LA LISTA DE SUS ALUMNOS
+     * @return deuelve una String
+     */
     @Override
     public String toString() {
         String s = "--------------------" + nombre + "-----------------\n";
