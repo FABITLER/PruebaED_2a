@@ -31,6 +31,10 @@ public class Nif {
         this.letra = ' ';
     }
 
+    /**
+     * crea un nif con el numero que le des y la letra se la da por defecto
+     * @param numero int
+     */
     protected Nif(int numero) {
         this.numero = numero;
         this.letra = calcularLetra(numero);
