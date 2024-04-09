@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class PersonaTest {
 Persona p = new Persona();
 
-/*
-Probamos que la edad sea correcta
- */
+    /**
+     * comprobamos que calular edad de el resultado que se espera
+     */
     @Test
     public void calcularEdad() {
         assertEquals(34, p.getEdad());
