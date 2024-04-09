@@ -133,7 +133,12 @@ public class Persona implements Comparable<Persona> {
         return Objects.equals(this.nif, other.nif);
     }
 
-
+    /**
+     * DEVUELVE UN  NUMERO SEGUN SI EL DNI ES MAYOR QUE EL SE COMPARA
+     * O UN NUMERO MENOR SI EL DNI ES MENOR QUE EL SE COMPARA
+     * @param o the object to be compared.
+     * @return
+     */
     @Override
     public int compareTo(Persona o) {
         return this.nif.toString().compareTo(o.nif.toString());
