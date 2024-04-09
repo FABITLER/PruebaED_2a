@@ -19,6 +19,10 @@ public class Curso {
         return nombre;
     }
 
+    /**
+     * CREA UN OBJETO CURSO CON EL NOMBRE DADO
+     * @param nombre
+     */
     public Curso(String nombre) {
         this.nombre = nombre;
         listaAlumnos = new TreeSet<>();
