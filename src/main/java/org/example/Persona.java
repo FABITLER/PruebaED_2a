@@ -27,6 +27,10 @@ public class Persona implements Comparable<Persona> {
         nacimiento = LocalDate.of(1990, 1, 1);
     }
 
+    /**
+     * Crea una persona utilizando un nif y dando valores por defecto
+     * @param nif
+     */
     public Persona(int nif) {
         this();
         this.nif = new Nif(nif);
