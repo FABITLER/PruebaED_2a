@@ -43,6 +43,10 @@ public class Curso {
         return s;
     }
 
+    /**
+     * AÑADE AL ALUMNO CON OBJETO PERSONA AL CURSO
+     * @param p DE PERSONA
+     */
     public void aniadirAlumno(Persona p) {
         listaAlumnos.add(p);
     }
