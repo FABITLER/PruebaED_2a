@@ -15,9 +15,9 @@ Probamos que la edad sea correcta
         assertEquals(34, p.getEdad());
     }
 
-/*
-REVISAMOS QUE LAS 2 PERSONAS SON IGUALES
- */
+    /**
+     * COMPROBAMOS EL METODO EQUALS SI DA EL RESULTADO ESPERADO
+     */
     @Test
     public void sonIguales() {
       Persona p1 = p;
