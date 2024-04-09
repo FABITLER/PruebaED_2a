@@ -54,6 +54,11 @@ public class Nif {
         this.letra = calcularLetra(numero);
     }
 
+    /**
+     * Comprueba si un objecto es igual que el nif actual
+     * @param obj
+     * @return true si es igual false si no lo es
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
