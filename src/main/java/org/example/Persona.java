@@ -36,6 +36,15 @@ public class Persona implements Comparable<Persona> {
         this.nif = new Nif(nif);
     }
 
+    /**
+     * CREA UN OBJETO PERSONA CON TODOS LOS DATOS QUE SE LE INGRESE
+     * @param nif
+     * @param nombre
+     * @param genero
+     * @param dia
+     * @param mes
+     * @param ano
+     */
     public Persona(int nif, String nombre, char genero,
             int dia, int mes, int ano) {
         this.nif = new Nif(nif);
